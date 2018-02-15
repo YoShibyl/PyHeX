@@ -14,8 +14,13 @@ Lastly, just run the PyHeX.py file like any other Python script, and clone away!
 
 ### Commands
 `clone(sourceBox, sourceSlot, copies[, destBox, destSlot])`
- + Clones the Pokemon from source box/slot N times to destination box/slot.  Default destination is set to source.
+ 
++ Clones the Pokemon from source box/slot N times to destination box/slot.  Default destination is set to source.
+
 `boxexport(box[, filepath])`
- + Dumps all Pokemon data from given box to an EK7 binary.  Default filepath is `boxdump.ek7` in the folder PyHeX is in.
+
++ Dumps all Pokemon data from given box to an EK7 binary.  Default filepath is `boxdump.ek7` in the folder PyHeX is in.
+
 `boximport(box[, filepath])`
- + Overwrites all Pokemon data in given box with data from an EK7 box binary.  Imports from `boxdump.ek7` by default.
+
++ Overwrites all Pokemon data in given box with data from an EK7 box binary.  Imports from `boxdump.ek7` by default.
